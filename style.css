@@ -1,0 +1,262 @@
+body {
+    margin: 0;
+    font-family: 'Hammersmith One', sans-serif;
+    background-color: #f5f5ef;
+}
+
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+}
+
+p,
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+}
+
+/* Container
+==================================*/
+.container {
+    width: 100%;
+    max-width: 1350px;
+    margin: 0 auto;
+    height: 650px;
+
+    background: url("/img/pic1.png") center no-repeat;
+    background-size: cover;   
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 40px;
+}
+
+.nav_link {
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Lato', sans-serif;
+
+    color: #ffffff;
+    margin-right: 50px;
+    margin-top: 50px;
+
+    transition: .2s linear;
+}
+
+.nav_link:hover {
+    opacity: .75;
+}
+
+.title {
+    margin-top: 200px;
+    text-align: center;
+    color: #ffffff;
+
+}
+
+h1 {
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 50px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+
+    margin: 0 0 30px;
+}
+
+h3 {
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+/* About
+========================================= */
+.about {
+    margin: 100px 150px;
+    display: flex;
+    flex-direction: row;
+}
+
+.about_img {
+    object-fit: cover;
+    width: 50%;
+    height: 400px;
+}
+
+.about_text {
+    margin-left: 40px;
+    display: inline;
+
+}
+
+h2 {
+    font-size: 40px;
+    font-family: 'Hammersmith One', sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 5px;
+}
+
+p {
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    line-height: 1.7;
+
+    text-align: justify;
+}
+
+.btn {
+    display: inline-block;
+    padding: 14px 40px;
+    background-color: rgb(102, 31, 31);
+    margin-top: 30px;
+
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+
+    text-align: center;
+
+
+    border-radius: 2px;
+    border: 0;
+    cursor: pointer;
+
+    transition: .2s linear;
+}
+
+.btn:hover {
+    background-color: rgb(131, 55, 55);
+}
+
+/* Products
+================================*/
+
+.products {
+    margin: 100px 150px;
+}
+
+.products_title {
+    margin-bottom: 70px;
+}
+
+.products_title h2 {
+    letter-spacing: 10px;
+    line-height: 1.7;
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.products_item h4 {
+    margin-bottom: 20px;
+
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 4px;
+}
+
+.product_img {
+    object-fit: cover;
+    width: 320px;
+    height: 350px;
+}
+
+/* Features
+======================================*/
+.features {
+    background-color: black;
+    padding: 0 150px;
+}
+
+.features h2 {
+    color: #fff;
+    padding-top: 100px;
+}
+
+.features_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: #fff;
+    
+}
+
+.features_item {
+    width: 200px;
+    margin-bottom: 100px;
+}
+
+.icon {
+    margin-top: 30px;
+}
+
+.features_title {
+    padding: 30px 0;
+
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.features_text {
+    line-height: 1.2em;
+}
+
+/* Footer
+================================*/
+.footer {
+    background-image: url("/img/img6.png");
+    width: 100%;
+    max-width: 1350px;
+    height: 750px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    transform: translate(0px, -200px);
+    z-index: -1;
+
+}
+
+.footer_text {
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+    top: 100%;
+    bottom: -30%;
+    width: inherit;
+    position: absolute;
+    
+    color: #fff;
+}
+
+.footer_title {
+    font-size: 50px;
+    text-transform: uppercase;
+
+    width: 20%;
+}
+
+.footer_contact {
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.footer_contact p {
+    font-size: 12px;
+    font-family: 'Lato', sans-serif;
+}
